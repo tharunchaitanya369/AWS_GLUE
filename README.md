@@ -14,7 +14,7 @@
 
   ### AWS Glue Crawler
   - The Glue crawler scans the uploaded data and updates the Glue Data Catalog.
-  -  When the crawler completes successfully, a CloudWatch Rule triggers Lambda Function 2. [Lambda Function 1](RunETLjob_Lambda.py)
+  -  When the crawler completes successfully, a CloudWatch Rule triggers Lambda Function 2. [Lambda Function 2](RunETLjob_Lambda.py)
 
   ### Cloudwatch Rule
   - We Will create a cloudwatch glue Crawler state change rule this will trigger lambda function 2 [cloudwatch Rule for triggering Lambda Function 2](cloudwatch_trigger_etl_lambda.txt)
